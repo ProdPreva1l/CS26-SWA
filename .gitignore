@@ -1,0 +1,5 @@
+core/__pycache__/
+chipin/__pycache__/
+chipin/migrations/__pycache__/
+users/__pycache__/
+users/migrations/__pycache__/
