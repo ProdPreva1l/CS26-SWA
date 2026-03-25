@@ -9,6 +9,7 @@ class CommentForm(forms.ModelForm):
         widgets = {
             'content': forms.Textarea(attrs={'rows': 3, 'placeholder': 'Enter your comment...'})
         }
+
     # Clean the content to sanitise input
     def clean_content(self):
         content = self.cleaned_data.get('content')

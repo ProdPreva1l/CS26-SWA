@@ -8,7 +8,9 @@
 <body>
 <header class="header">
     <div class="logo">
+        <a href="{% url 'chipin:home' %}">
         <img src="{% static 'chipin/logo_90.jpg' %}" alt="ChipIn Logo">
+        </a>
     </div>
     <div class="user-info">
         {% if request.user.is_authenticated %}
